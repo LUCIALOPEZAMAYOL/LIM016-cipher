@@ -6,13 +6,28 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form>
+    <form action="cifrar">
       <label for="text1">INGRESE CONTRASEÑA A CIFRAR</label><br><br>
       <textarea type="text" id="text1" name="text1" maxlength="100" placeholder="Ingresar Texto" rows="4" cols="30"></textarea><br><br>
+      
       <label for="displacement">CLAVE (max 4 dígitos)</label><br>
-      <input type="number" name="displacement" id="displacement" oninput="if(this.value.length>4) this.value=this.value.slice(0,4)"><br><br>
+      <input type="number" name="displacement1" id="displacement1" oninput="if(this.value.length>4) this.value=this.value.slice(0,4)"><br><br>
+      
       <button type="button" id='encode'>CIFRAR</button>
+      <button type="button" id='return'>VOLVER</button>
+    </form><br>
+
+    <form action="descifrar">
+      <label for="text2">INGRESE CONTRASEÑA A DESCIFRAR</label><br><br>
+      <textarea type="text" id="text2" name="text2" maxlength="100" placeholder="Ingresar Texto" rows="4" cols="30"></textarea><br><br>
+      
+      <label for="displacement2">CLAVE (max 4 dígitos)</label><br>
+      <input type="number" name="displacement2" id="displacement2" oninput="if(this.value.length>4) this.value=this.value.slice(0,4)"><br><br>
+      
+      <button type="button" id='decode'>DESCIFRAR</button>
+      <button type="button" id='return'>VOLVER</button>
     </form>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>

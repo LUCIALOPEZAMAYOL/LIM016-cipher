@@ -42,25 +42,11 @@ más complejos de codificación, como el cifrado Vigenère, e incluso tiene
 aplicación en el sistema ROT13.
 
 ## 2. Resumen del proyecto
+La aplicación web "Hide" se creo con la intención de ayudar a muchos usuarios, con la encriptación de sus contraseñas de las diferentes plataformas que utilizan con una cuenta y contrseña. 
+Si bien google chrome tiene una opción de guardado de contraseñas;  ésta de cierta manera es un poco vulnerable, ya que si el usuario descuidara su ordenador, otra persona puede acceder a estas contraseñas y vulnerar su seguridad.
+Sin embargo al guardarlas encriptadas; ya sea en un word, block de notras u otro medio, estas se mantienen seguras seguras, ya que si otra persona accede a ellas no sabra lo que significa cada encriptación y a que cuentas pertenece cada contraseña encriptada.
+Es por ello la importancia de la aplicación web que se esta creando. 
 
-¿Qué tengo que hacer exactamente? En este proyecto crearás una aplicación
-web que servirá para que el usuario pueda cifrar y descifrar un texto indicando
-un desplazamiento específico de caracteres (_offset_).
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
-(qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
-ejemplo:
-
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
-
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
 
 ## 3. Objetivos de aprendizaje
 
