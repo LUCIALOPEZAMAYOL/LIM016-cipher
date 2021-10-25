@@ -6,28 +6,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+      <div id="vistaInicio">
+        <h1>BIENVENID@ A "HIDE", LA PLATAFORMA QUE TE AYUDARÁ A CIFRAR Y DESCIFRAR TUS CONTRASEÑAS Y MANTENERLAS SEGURAS.</h1>
+        <button type="button" id="inicio">EMPEZAR</button><br><br>
+        <button type="button" id="manual">INSTRUCCIONES</button>
+      </div><br>
+      <div class="modalContainer" id="modalContainer">
+        <div class="modal"> 
+          <p>“HIDE”, cifrará/descifrará tus contraseñas utilizando código de César o desplazamiento de César, es una de las técnicas de cifrado más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra en el alfabeto utilizando un desplazamiento. Sigue los siguientes pasos para lograrlo:
+          </p>
+          <ul>
+            <li>Se te mostrará un cuadro de texto donde ingresarás la contraseña que quieras cifrar.
+            </li>
+            <li>Ingresarás una clave (que será el nivel de desplazamiento para tu cifrado), que tendrá como máximo 4 dígitos.
+            </li>
+            <li>Finalmente harás click en el botón CIFRAR si lo que quieres es cifrar  o en el botón DESCIFRAR si lo que quieres es descifrar.
+            </li>
+          </ul>
+          <button type="button" id="cerrar">CERRAR</button>
+        </div>
+      </div><br>
+<div id="vistaEncodeDecode">
     <form action="cifrar">
-      <label for="text1">INGRESE CONTRASEÑA A CIFRAR</label><br><br>
+      <label for="text1">INGRESE CONTRASEÑA A CIFRAR O DESCIFRAR</label><br><br>
       <textarea type="text" id="text1" name="text1" maxlength="100" placeholder="Ingresar Texto" rows="4" cols="30"></textarea><br><br>
       
       <label for="displacement">CLAVE (max 4 dígitos)</label><br>
       <input type="number" name="displacement1" id="displacement1" oninput="if(this.value.length>4) this.value=this.value.slice(0,4)"><br><br>
-      
-      <button type="button" id='encode'>CIFRAR</button>
-      <button type="button" id='return'>VOLVER</button>
-    </form><br>
-
-    <form action="descifrar">
-      <label for="text2">INGRESE CONTRASEÑA A DESCIFRAR</label><br><br>
-      <textarea type="text" id="text2" name="text2" maxlength="100" placeholder="Ingresar Texto" rows="4" cols="30"></textarea><br><br>
-      
-      <label for="displacement2">CLAVE (max 4 dígitos)</label><br>
-      <input type="number" name="displacement2" id="displacement2" oninput="if(this.value.length>4) this.value=this.value.slice(0,4)"><br><br>
-      
-      <button type="button" id='decode'>DESCIFRAR</button>
-      <button type="button" id='return'>VOLVER</button>
-    </form>
-
+    </form><br>   
+    <button type="button" id='encode'>CIFRAR</button>
+    <button type="button" id="decode">DESCIFRAR</button><br>
+    <button type="button" id="limpiar">LIMPIAR</button>
+    <button type="button" id='return'>VOLVER</button>
     <script src="index.js" type="module"></script>
+  </div>
   </body>
 </html>
