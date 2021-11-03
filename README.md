@@ -54,18 +54,18 @@ El protofipo fue diseñado en PowerPoint.
 Se realizó un diseño sencillo para que sea de fácil entendimeinto para el usuario.
 Se diseño una página con 2 vistas, la primera muestra una bienvenida y dos botones, una de instrucciones que al hacer click te muestra una ventana emergente que contiene la instrucciones; y el otro botón de empezar que te lleva a la segunda vista donde se encuentra la funcionalidad de cifrar y descifrar.
 
-![PROTOTIPO1] (/imgnReadmi/PROTOTIPO1.png)
-![PROTOTIPO2] (/imgnReadmi/PROTOTIPO2.png)
+![PROTOTIPO1] (https://github.com/LUCIALOPEZAMAYOL/LIM016-cipher/blob/main/imgnReadmi/PROTOTIPO1.PNG?raw=true)
+![PROTOTIPO2] (https://github.com/LUCIALOPEZAMAYOL/LIM016-cipher/blob/main/imgnReadmi/PROTOTIPO2.PNG?raw=true)
 
 ## 4. Imagenes de la aplicación
 
-![página1] (imgnReadmi/página1.png)
-![página2] (imgnReadmi/página2.png)
-![página3] (imgnReadmi/página3.png)
+![página1] (https://github.com/LUCIALOPEZAMAYOL/LIM016-cipher/blob/main/imgnReadmi/p%C3%A1gina1.PNG?raw=true)
+![página2] (https://github.com/LUCIALOPEZAMAYOL/LIM016-cipher/blob/main/imgnReadmi/p%C3%A1gina2.PNG?raw=true)
+![página3] (https://github.com/LUCIALOPEZAMAYOL/LIM016-cipher/blob/main/imgnReadmi/p%C3%A1gina3.PNG?raw=true)
 
 ## 5. Tests unitarios
 
-![test] (/imgnReadmi/test.PNG)
+![test] (https://github.com/LUCIALOPEZAMAYOL/LIM016-cipher/blob/main/imgnReadmi/test.PNG?raw=true)
 
 ## 6. Checklist
 
