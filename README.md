@@ -54,18 +54,18 @@ El protofipo fue diseñado en PowerPoint.
 Se realizó un diseño sencillo para que sea de fácil entendimeinto para el usuario.
 Se diseño una página con 2 vistas, la primera muestra una bienvenida y dos botones, una de instrucciones que al hacer click te muestra una ventana emergente que contiene la instrucciones; y el otro botón de empezar que te lleva a la segunda vista donde se encuentra la funcionalidad de cifrar y descifrar.
 
-![fondo] (/fondo/PROTOTIPO1.PNG)
-![fondo] (/fondo/PROTOTIPO2.PNG)
+![PROTOTIPO1] (/imgnReadmi/PROTOTIPO1.png)
+![PROTOTIPO2] (/imgnReadmi/PROTOTIPO2.png)
 
 ## 4. Imagenes de la aplicación
 
-![página] (/fondo/página1.PNG)
-![página] (/fondo/página2.PNG)
-![página] (/fondo/página3.PNG)
+![página1] (imgnReadmi/página1.png)
+![página2] (imgnReadmi/página2.png)
+![página3] (imgnReadmi/página3.png)
 
 ## 5. Tests unitarios
 
-![test] (/fondo/test.PNG)
+![test] (/imgnReadmi/test.PNG)
 
 ## 6. Checklist
 
